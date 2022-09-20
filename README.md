@@ -120,3 +120,6 @@ orElse retorna o que tem dentro do option porém se não tiver nada ele retorna 
 `ResponseEntity` representa a resposta que será retornada e com ele conseguimos retronar melhor a resposta, como por exemplo cod de status 
 e cabeçalhos. 
  
+ > Spring Data JPA não é uma implementação do Jakarta Pers. <br>
+ > o Jakarta é uma espec e o Hibernate sim é uma implementação. <br> 
+ > Spring Data JPA é uma biblioteca. 
