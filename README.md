@@ -2,11 +2,11 @@
  
 ## Aqui detalharei o passo a passo do projeto, com algumas de minhas anotações. [Em Processo/In-process]
 
-### 1° [CREATE NEW SPRING STARTER PROJECT]
+### [CREATE NEW SPRING STARTER PROJECT]
 
 > Pacote base de criação de classes da aplicação. 
 
-### 2° [GERANDO DEPENDÊNCIAS]
+### [GERANDO DEPENDÊNCIAS]
 - Spring Web 
 > Ao add um starter automaticamente add um conjunto de dependências do projeto. O spring autoconfigura o projeto para usar as dep (baixando as bibliotecas necessárias e config o projeto para p desenvolvimento web).
 > Caso de algum problema: 
@@ -25,7 +25,7 @@ maven - updateproject - force update
 ```
 > Gerando arquivo jar para rodar aplicação. Server content (TomCat)
 
-### 3° [JAR]
+### [JAR]
 > run as - maven build... - clean <br>
 > package (no input goals)
 ```sh
@@ -40,7 +40,7 @@ java -jar [nome do caminho]
 
 ```
 
-### 4° [IMPLEMENTANDO ENDPOINTS - COLLECTION RESOURCE]
+### [IMPLEMENTANDO ENDPOINTS - COLLECTION RESOURCE]
 - Postman
 > Criar collection + nova requisição. Selecionar verbo http. LocalHost:8080/clientes <br>
 > Criando classe controladora para tratar as req HTTP e enviar uma resposta. 
