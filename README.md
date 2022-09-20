@@ -2,6 +2,16 @@
  
 ## Aqui detalharei o passo a passo do projeto, com algumas de minhas anotações. [Em Processo/In-process]
 
+- Spring
+- Rest API
+- SpringTools
+- JPA
+- Postman
+- Hibernate
+- MySQL
+- Req HTTP
+- Integrações nuvem 
+
 ### [CREATE NEW SPRING STARTER PROJECT]
 
 > Pacote base de criação de classes da aplicação. 
