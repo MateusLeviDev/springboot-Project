@@ -55,7 +55,7 @@ java -jar [nome do caminho]
 - Gerador de Getters e Setters. 
 - <a href="https://www.youtube.com/watch?v=W0ywxkvc4_M">Lombok no STS</a> 
 
-### [OUTRAS ANOTAÇÕES]
+### [OUTRAS ANOTAÇÕES - DICAS]
 
 #### MySQL
 
@@ -64,5 +64,14 @@ java -jar [nome do caminho]
 spring.datasource.url=jdbc:mysql://localhost/levilog?createDatabaseIfNotExist=true&serverTimezone=UTC
 spring.datasource.username=root
 spring.datasource.password=senha
+
+```
+
+<br> 
+
+```sh
+
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+@Column(name = "nome"
 
 ```
