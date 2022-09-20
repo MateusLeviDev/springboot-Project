@@ -86,11 +86,11 @@ BIZU: como hablitar no console os sqls gerados, o jakarta esta gerando os sqls <
 BIZU: em projetos prof são separadas as responsabilidades, criaremos um componente na nossa arquitetura  
 que tem acesso aos dados e essa classe controladora usará esse componente. <br>
 
-@Repository anotação que define que a interface é um componente do spring, porém com uma semântica bem defininida 
+> @Repository anotação que define que a interface é um componente do spring, porém com uma semântica bem defininida 
 comp spring é um tipo gerenciado pelo próprio container do spring, com isso injetamos uma instância de maneira fácil
 usando injeção de dependências <br>
 
 
-@Autowired: significa que queremos gerar uma instância que esta sendo gerada pelo spring. o spring data fornece uma implemetação 
+> @Autowired: significa que queremos gerar uma instância que esta sendo gerada pelo spring. o spring data fornece uma implemetação 
 dessa interface aqui no repo automaticamente. 
 <br>
