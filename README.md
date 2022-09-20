@@ -63,6 +63,6 @@ java -jar [nome do caminho]
 
 spring.datasource.url=jdbc:mysql://localhost/levilog?createDatabaseIfNotExist=true&serverTimezone=UTC
 spring.datasource.username=root
-spring.datasource.password=mlsp2022040899@@
+spring.datasource.password=senha
 
 ```
