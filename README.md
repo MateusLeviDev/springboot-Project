@@ -54,3 +54,15 @@ java -jar [nome do caminho]
 ### [LOMBOK]
 - Gerador de Getters e Setters. 
 - <a href="https://www.youtube.com/watch?v=W0ywxkvc4_M">Lombok no STS</a> 
+
+### [OUTRAS ANOTAÇÕES]
+
+#### MySQL
+
+```sh
+
+spring.datasource.url=jdbc:mysql://localhost/levilog?createDatabaseIfNotExist=true&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=mlsp2022040899@@
+
+```
