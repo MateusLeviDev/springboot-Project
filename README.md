@@ -94,3 +94,29 @@ usando injeção de dependências <br>
 > @Autowired: significa que queremos gerar uma instância que esta sendo gerada pelo spring. o spring data fornece uma implemetação 
 dessa interface aqui no repo automaticamente. 
 <br>
+
+> @Repository anotação que define que a interface é um componente do spring, porém com uma semântica bem defininida 
+comp spring é um tipo gerenciado pelo próprio container do spring, com isso injetamos uma instância de maneira fácil
+usando injeção de dependências
+
+
+> @Autowired: significa que queremos gerar uma instância que esta sendo gerada pelo spring. o spring data fornece uma implemetação 
+dessa interface aqui no repo automaticamente. 
+
+
+ ```sh
+
+@GetMapping("/clientes/{clienteId}")
+		public Cliente buscar(@PathVariable Long clienteId) { 
+			Optional<Cliente> cliente = clienteRepository.findById(clienteId);
+			
+			return cliente.orElse(null); 
+		}
+
+```
+
+Vinculando o parametro do metro a variável clienteId
+orElse retorna o que tem dentro do option porém se não tiver nada ele retorna o que passamos no segundo argumento.
+RespondeEntity representa a resposta que será retornada e com ele conseguimos retronar melhor a resposta, como por exemplo cod de status 
+e cabeçalhos. 
+ 
