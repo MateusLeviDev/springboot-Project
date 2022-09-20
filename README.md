@@ -24,3 +24,18 @@ maven - updateproject - force update
 
 ```
 > Gerando arquivo jar para rodar aplicação. Server content (TomCat)
+
+### 3° [JAR]
+> run as - maven build... - clean <br>
+> package (no input goals)
+```sh
+
+cd target 
+
+ls
+
+[Copiar caminho]
+
+java -jar [nome do caminho]
+
+```
