@@ -16,4 +16,11 @@ maven - updateproject - force update
 
 ```
 
-> Dependecy Hierarchy: Dep transitivas, podendo ter outras também. Pode-se dizer que a maven dependecy é uma pasta lógica, uma ref. 
+> Dependecy Hierarchy: Dep transitivas, podendo ter outras também. Pode-se dizer que a maven dependecy é uma pasta lógica, uma ref. <br>
+> Repo local do maven: 
+```sh
+
+[nome do arquivo] ls ~/.m2/repository
+
+```
+> Gerando arquivo jar para rodar aplicação. Server content (TomCat)
