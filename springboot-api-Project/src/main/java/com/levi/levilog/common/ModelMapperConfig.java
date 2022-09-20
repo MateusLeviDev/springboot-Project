@@ -1,4 +1,4 @@
-package com.algaworks.algalog.common;
+package com.levi.levilog.common;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

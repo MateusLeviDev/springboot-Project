@@ -1,4 +1,4 @@
-package com.algaworks.algalog.api.model.input;
+package com.levi.levilog.api.model.input;
 
 import javax.validation.constraints.NotNull;
 

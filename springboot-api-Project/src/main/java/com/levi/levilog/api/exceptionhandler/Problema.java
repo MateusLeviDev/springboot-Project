@@ -1,4 +1,4 @@
-package com.algaworks.algalog.api.exceptionhandler;
+package com.levi.levilog.api.exceptionhandler;
 
 import java.time.OffsetDateTime;
 import java.util.List;

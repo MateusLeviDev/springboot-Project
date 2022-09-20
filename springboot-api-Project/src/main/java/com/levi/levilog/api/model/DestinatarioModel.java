@@ -1,4 +1,4 @@
-package com.algaworks.algalog.api.model;
+package com.levi.levilog.api.model;
 
 import lombok.Getter;
 import lombok.Setter;

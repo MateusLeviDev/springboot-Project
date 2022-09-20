@@ -1,4 +1,4 @@
-package com.algaworks.algalog.api.model;
+package com.levi.levilog.api.model;
 
 import java.time.OffsetDateTime;
 

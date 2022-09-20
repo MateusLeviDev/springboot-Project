@@ -1,4 +1,4 @@
-package com.algaworks.algalog.domain.exception;
+package com.levi.levilog.domain.exception;
 
 public class EntidadeNaoEncontradaException extends NegocioException {
 

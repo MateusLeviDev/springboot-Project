@@ -1,4 +1,4 @@
-package com.algaworks.algalog.domain.model;
+package com.levi.levilog.domain.model;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;

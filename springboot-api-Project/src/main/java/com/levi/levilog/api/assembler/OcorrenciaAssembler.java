@@ -1,4 +1,4 @@
-package com.algaworks.algalog.api.assembler;
+package com.levi.levilog.api.assembler;
 
 import java.util.List;
 import java.util.stream.Collectors;
