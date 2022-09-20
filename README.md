@@ -45,3 +45,12 @@ java -jar [nome do caminho]
 > Criar collection + nova requisição. Selecionar verbo http. LocalHost:8080/clientes <br>
 > Criando classe controladora para tratar as req HTTP e enviar uma resposta. 
 
+### [MÉTODOS]
+- @GetMapping("Clientes")
+> ou seja, qnd for feito uma req em /clientes volta o método criado. <br>
+> Além disso precisamos dizer ao spring que isso é um componente spring capaz de tratar uma req HTTP.
+- @RestController
+
+### [LOMBOK]
+- Gerador de Getters e Setters. 
+- <a href="https://www.youtube.com/watch?v=W0ywxkvc4_M">Lombok no STS</a> 
