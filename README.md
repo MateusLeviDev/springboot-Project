@@ -117,6 +117,6 @@ dessa interface aqui no repo automaticamente.
 
 Vinculando o parametro do metro a variável clienteId
 orElse retorna o que tem dentro do option porém se não tiver nada ele retorna o que passamos no segundo argumento.
-RespondeEntity representa a resposta que será retornada e com ele conseguimos retronar melhor a resposta, como por exemplo cod de status 
+`ResponseEntity` representa a resposta que será retornada e com ele conseguimos retronar melhor a resposta, como por exemplo cod de status 
 e cabeçalhos. 
  
