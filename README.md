@@ -12,6 +12,8 @@
 - Req HTTP
 - Integrações nuvem 
 
+- <a href="https://drive.google.com/file/d/1LbLgfiUEPiQIlh5RGwyme29aSzouC7cO/view?usp=drivesdk">Anotações Rest API Spring Project</a> 
+
 ### [CREATE NEW SPRING STARTER PROJECT]
 
 > Pacote base de criação de classes da aplicação. 
