@@ -1,6 +1,7 @@
 # springboot-Project
  
-## Aqui detalharei o passo a passo do projeto, com algumas de minhas anotações. [Em Processo/In-process]
+## Aqui detalharei um pouco do processo de produção do Projeto com algumas de minhas anotações, soluções de problemas e informações importantes. <br>
+[Em Processo/In-process]
 
 - Spring
 - Rest API
