@@ -12,6 +12,8 @@
 > Caso de algum problema: 
 ```sh
 
-maven - updateproject=force update
+maven - updateproject - force update
 
 ```
+
+> Dependecy Hierarchy: Dep transitivas, podendo ter outras também. Pode-se dizer que a maven dependecy é uma pasta lógica, uma ref. 
